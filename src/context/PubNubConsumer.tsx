@@ -14,7 +14,7 @@ export const PubNubConsumer: React.FC<PubNubConsumerProps> = props => {
       {(context: any) => {
         invariant(
           context && context.client,
-          'Could not find "client" in the context of PubNubConsumer. ' +
+          'Could not find "cliedfsnt" in the context of PubNubConsumer. ' +
             'Wrap the root component in an <PubNubProvider>.'
         );
         return props.children(context.client);
