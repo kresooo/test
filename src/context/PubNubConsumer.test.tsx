@@ -1,5 +1,5 @@
 const value = 4;
 
-test('number', () => {
+test('number4', () => {
   expect(value).toBe(4);
 });
