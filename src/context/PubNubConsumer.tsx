@@ -8,7 +8,7 @@ export interface PubNubConsumerProps {
 
 export const PubNubConsumer: React.FC<PubNubConsumerProps> = props => {
   const PubNubContext = getPubNubContext();
-  console.log('hehe')
+  console.log('heheh')
   return (
     <PubNubContext.Consumer>
       {(context: any) => {
